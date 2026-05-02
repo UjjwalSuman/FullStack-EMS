@@ -60,7 +60,7 @@ const LoginForm = ({role, title, subtitle}) => {
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    placeholder="admin@gmail.com"
+                    placeholder="john@gmail.com"
                     className="w-full px-4 py-3 border border-slate-200 rounded-xl bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 transition"
                     />
                 </div>

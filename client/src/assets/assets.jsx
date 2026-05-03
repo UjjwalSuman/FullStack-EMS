@@ -1,7 +1,7 @@
 export const DEPARTMENTS = ["Engineering", "Human Resources", "Marketing", "Sales", "Finance", "Operations", "IT Support", "Customer Success", "Product Management", "Design"];
 
 export const dummyAdminDashboardData = {
-    role: "ADMIN",
+    role: "Admin",
     totalEmployees: 3,
     totalDepartments: 10,
     todayAttendance: 1,
@@ -16,7 +16,7 @@ export const dummyEmployeeDashboardData = {
     },
     employee: {
         firstName: "Ujjwal",
-        lastName: "suman",
+        lastName: "Suman",
         position: "Software Engineer",
         department: "Engineering",
     },
@@ -24,9 +24,9 @@ export const dummyEmployeeDashboardData = {
 
 export const dummyProfileData = {
     _id: "69b411e6f8a807df391d7b13",
-    firstName: "Ujjwal",
-    lastName: "Suman",
-    email: "Ujjwalsuman@example.com",
+    firstName: "John",
+    lastName: "Doe",
+    email: "johndoe@example.com",
     image: null,
 };
 
@@ -93,13 +93,13 @@ export const dummyEmployeeData = [
         _id: "69b411e6f8a807df391d7b13",
         userId: {
             _id: "69b411e5f8a807df391d7b11",
-            email: "Ujjwalsuman@example.com",
+            email: "johndoe@example.com",
             role: "EMPLOYEE",
         },
         department: "Engineering",
-        firstName: "Ujjwal",
-        lastName: "suman",
-        email: "Ujjwalsuman@example.com",
+        firstName: "John",
+        lastName: "Doe",
+        email: "johndoe@example.com",
         phone: "9000000001",
         position: "Senior Software Developer",
         basicSalary: 40000,
@@ -114,7 +114,7 @@ export const dummyEmployeeData = [
         updatedAt: "2026-03-13T13:33:20.498Z",
         id: "69b411e6f8a807df391d7b13",
         user: {
-            email: "Ujjwalsuman@example.com",
+            email: "johndoe@example.com",
             role: "EMPLOYEE",
         },
     },

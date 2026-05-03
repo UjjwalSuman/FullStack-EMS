@@ -42,7 +42,7 @@ const EmployeeDashboard = ({ data }) => {
         </p>
       </div>
 
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-5 mt-8 mb-8">
+      <div className="max-w-8xl mx-auto grid grid-cols-3 sm:grid-cols-3 gap-5 mt-8 mb-8">
         {cards.map((card, index) => (
           <div
             key={index}
